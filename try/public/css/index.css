@@ -1,0 +1,85 @@
+/*1楼*/
+.container-fluid>div>.text-center>span,.container-fluid>div>div>div>div>span{
+    border-bottom: 3px solid #e25111;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.container-fluid>div>.text-center{
+    padding-bottom: 1rem;
+}
+/*第二个DIV的上边框*/
+.container-fluid>div>.border_color{
+    border-top:1px solid #cccccc;
+    padding-top: 3rem;
+}
+
+/*3楼*/
+
+/*.container-fluid>div>div>ul>li>a{*/
+    /*color:#000;*/
+    /*font-size:20px;*/
+    /*text-decoration: none;*/
+    /*padding: 0 2rem;*/
+/*}*/
+
+.container-fluid>div>div>.style{
+    border:1px solid #e25111;
+    color:#e25111;
+    background-color: rgba(0,0,0,0);
+    width:20%;
+    padding:0.5rem 0;
+    text-decoration: none;
+    margin: 3rem 0;
+}
+.container-fluid>div>div>div>div>div>div>a,.container-fluid>div>div>div>div>a{
+    color:#000;
+    text-decoration: none;
+}
+.container-fluid>div>div>div>div>.background {
+    background-color: #bbbaba;
+    text-align: center;
+    padding: 3rem;
+    margin: 0;
+}
+.container-fluid>div>.row,.container-fluid>div>div>div>div>.padding{
+    margin: 1rem 0;
+}
+/*媒体查询*/
+@media screen and (min-width: 1200px){
+    .container-fluid>div>div>div>div>.background {
+        margin-top: 11rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .container-fluid>div>div>div>div>div>div>a{
+        font-size:1.5rem;
+
+    }
+    .container-fluid>div>.margin{
+        margin: 0 3rem;
+    }
+    .container-fluid>div>div>div>div>.background {
+      margin-top: 7rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container-fluid>div>.margin,.container-fluid>div>div>div>.margin_left{
+        margin: 0 1rem;
+    }
+    .container-fluid>div>div>div>div>.background {
+        margin-top: 17rem;
+    }
+}
+.container-fluid>div>div>div>.margin_bottom{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px){
+    .container-fluid>div>div>div>ul>li>a {
+        font-size: 17px;
+    }
+    .container-fluid>div>.margin,.container-fluid>div>div>div>.margin_left{
+        margin: 0 1rem;
+    }
+
+}

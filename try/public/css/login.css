@@ -1,0 +1,81 @@
+
+/*body*/
+.container-fluid>div>div>.padding{
+    padding:2rem 1rem;
+}
+.container-fluid>div>div>div>div>a{
+    color:#00c375;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.container-fluid>div>div>div>.font_size>div{
+    margin: 2rem 0;
+}
+.container-fluid>div>div>div>.font_size>span{
+    font-size: 2rem;
+}
+.container-fluid>div>div>div>.font_size>div>button{
+    width:60%;
+}
+.container-fluid>div>div>div>.font_size>div>a{
+    color:#69F;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.container-fluid>div>div>div>div>div>.background_a{
+    background-color:#b2abab;
+    text-decoration: none;
+    color:#000;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+.container-fluid>div>div>div>ul>li>a{
+    color:#000;
+    text-decoration: none;
+    font-size:1rem;
+}
+.container-fluid>div>div>div>.breadcrumb{
+    background-color: rgba(0,0,0,0);
+}
+/*!*媒体查询*!*/
+/*@media screen and (min-width: 1200px){*/
+
+/*}*/
+@media screen and (min-width: 992px) {
+    .container-fluid>div>div>div>div>div>input{
+        width:70%;
+    }
+    .container-fluid>div>div>div>.font_size>div>a{
+        margin: 0;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container-fluid>div>div>div>div>div>.background_a{
+        font-size: 1rem;
+        padding-top:0.2rem;
+    }
+    .container-fluid>div>div>div>div>div>input{
+        width:69%;
+    }
+    .container-fluid>div>div>.padding{
+        padding:2rem 0;
+    }
+    .container-fluid>div>div>div>.font_size>div>button{
+        width:55%;
+    }
+    .container-fluid>div>div>div>.font_size>div>a{
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .container-fluid>div>div>div>div>div>input{
+        width:80%;
+    }
+    .container-fluid>div>div>div>div>div>.background_a{
+        padding: 0 1rem;
+    }
+}
